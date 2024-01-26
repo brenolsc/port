@@ -14,7 +14,6 @@
       background-image: url(backg.jpg);
       background-size: cover;
       background-attachment: fixed;
-      color: white;
       text-align: center;
     }
 
@@ -91,12 +90,13 @@
       background-color: black;
       height: 50px;
       width: 100%;
-      position: fixed;
+      position: absolute;
       bottom: 0;
       left: 0;
       display: flex;
       align-items: center;
       justify-content: flex-end;
+      z-index: 999;
     }
 
     .footer-text {
@@ -217,6 +217,6 @@
   <div class="footer-bar">
     <p class="footer-text">Made by me.</p>
   </div>
-  
+
 </body>
 </html>
